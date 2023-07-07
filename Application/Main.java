@@ -60,8 +60,8 @@ public class Main {
 		System.out.println();
 		System.out.println("List of employees:");
 				
-		for(Employee x : list) {
-			System.out.println(x);
+		for(Employee obj : list) {
+			System.out.println(obj);
 		}
 		sc.close();
 	}
